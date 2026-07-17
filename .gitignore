@@ -1,0 +1,25 @@
+# Dataset brut (volumineux, ~72 Mo) : à retélécharger depuis Kaggle si besoin
+Brain_Data_Organised/
+
+# Données prétraitées régénérables via preprocess_images.py (~167 Mo)
+preprocessed_data/
+
+# Environnement virtuel Python
+.venv/
+
+# Logs d'entraînement (régénérés en relançant train_cnn.py / train_transfer_learning.py)
+*.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Secrets Streamlit (ne jamais committer)
+.streamlit/secrets.toml
+
+# Fichiers systeme
+.DS_Store
+Thumbs.db
+
+# Etat local de l'outil Claude Code (pas du code projet)
+.claude/
